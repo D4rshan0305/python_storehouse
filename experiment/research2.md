@@ -207,15 +207,14 @@ def nearest_sq(n):
 <https://www.codewars.com/kata/5544c7a5cb454edb3c000047/train/python>
 
 ```python
-    代码如下：
-    def bouncing_ball(h, bounce, window):
-    if h>0 and bounce>0 and bounce<1 and window<h:
-        if h*bounce <=window:
-            return 1
-        else:
-            for i in range(1,50):
-                if h*(bounce**i)<window:
-                    return 1+2*(i-1)
+def bouncing_ball(h, bounce, window):
+    # your code
+    if h > 0 and 0 < bounce < 1 and window < h:
+        count = 1
+        while(h * bounce > window):
+            count += 2
+            h = h * bounce
+        return count
     else:
         return -1
 ```
