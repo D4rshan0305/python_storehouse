@@ -207,6 +207,7 @@ def nearest_sq(n):
 <https://www.codewars.com/kata/5544c7a5cb454edb3c000047/train/python>
 
 ```python
+<<<<<<< HEAD
 def bouncing_ball(h, bounce, window):
     # your code
     if h > 0 and 0 < bounce < 1 and window < h:
@@ -215,6 +216,17 @@ def bouncing_ball(h, bounce, window):
             count += 2
             h = h * bounce
         return count
+=======
+    代码如下：
+    def bouncing_ball(h, bounce, window):
+    if h>0 and bounce>0 and bounce<1 and window<h:
+        if h*bounce <=window:
+            return 1
+        else:
+            for i in range(1,50):
+                if h*(bounce**i)<window:
+                    return 1+2*(i-1)
+>>>>>>> e27eb00f6f0fb0428e9e2bcc807c310cdb35344d
     else:
         return -1
 ```
