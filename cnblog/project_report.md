@@ -42,7 +42,7 @@ _本章的内容主要包括系统的需求分析，系统主要需要实现的�
 
 ## 第3章 软件测试
 
-_![image-20231126120020416](C:\Users\86178\AppData\Roaming\Typora\typora-user-images\image-20231126120020416.png)_
+![image](https://github.com/D4rshan0305/python_storehouse/blob/master/cnblog/test.png)
 
 ## 结论
 
